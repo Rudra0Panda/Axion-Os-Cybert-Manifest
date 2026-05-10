@@ -251,7 +251,7 @@ gk -s
 To configure your device build:
 
 ```bash
-axion <device_codename> [variant]
+axion cybert gms pico
 ```
 
 Variants:
@@ -279,7 +279,7 @@ mka installclean
 Finally, compile:
 
 ```bash
-ax -br -j<count>
+ax -br -j32
 ```
 
 Replace `<count>` with the number of CPU threads you want to use (e.g. `ax -j16`).
